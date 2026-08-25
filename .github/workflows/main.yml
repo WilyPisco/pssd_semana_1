@@ -1,0 +1,11 @@
+- name: kotlinmaid
+  # You may pin to the exact commit or the version.
+  # uses: nurzhanme/kotlinmaid-github-action@36eaba154642272240a712004db1b420d0b42e76
+  uses: nurzhanme/kotlinmaid-github-action@v0.0.8-alpha
+  with:
+    # The path where the entities are located.
+    entity-path: # default is .
+    # The package name of entities.
+    package-name: # default is .
+    # File to update. Default to UML.md
+    uml-file: # default is UML.md
